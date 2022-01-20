@@ -22,6 +22,10 @@ public class MarkdownParse {
             {
                 break;
             }
+            if (nextCloseBracket + 1 != openParen)
+            {
+                break;
+            }
 
             System.out.println("nextOpenBracket: " + nextOpenBracket);
             System.out.println("nextCloseBracket: " + nextCloseBracket);
